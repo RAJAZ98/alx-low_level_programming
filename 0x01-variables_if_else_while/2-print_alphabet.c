@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - alphabet in lowercase
  *
@@ -6,12 +7,12 @@
  */
 int main(void)
 {
-	int n = 97;
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
 
-	while (n <= 122)
+	for (i = 0; i < 26; i++)
 	{
-		putchart(n);
-		n++;
+		putchart(alp[i]);
 	}
 	putchart('\n')
     return (0);
