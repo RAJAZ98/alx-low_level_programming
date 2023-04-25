@@ -12,8 +12,8 @@ int main(void)
 
 	for (i = 0; i < 26; i++)
 	{
-		putchart(alp[i]);
+		putchar(alp[i]);
 	}
-	putchart('\n')
+	putchar('\n')
     return (0);
 }
